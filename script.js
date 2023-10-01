@@ -126,15 +126,6 @@ const questions = [
         ]
     },
     {
-        question: "According to the provided rules, when does an individual have to pay taxes in the source country for employment income?",
-        answers: [
-            { text: "When the paying company is not resident in the source country.", correct: true },
-            { text: "When the individual spends more than 183 days in the source country.", correct: true },
-            { text: "When the employment is physically carried out in the source country.", correct: true },
-            { text: "All of the above.", correct: true },
-        ]
-    },
-    {
         question: "In tax conventions, what does Article 15 generally address?",
         answers: [
             { text: "Rules for tax neutrality.", correct: false },
