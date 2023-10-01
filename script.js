@@ -351,6 +351,358 @@ const questions = [
         ]
     },
     {
+        question: "What is the economic perspective of a tax?",
+        answers: [
+            { text: "A voluntary contribution to the government.", correct: false },
+            { text: "Any required payments to government.", correct: true },
+            { text: "Payments that are considered a penalty.", correct: false },
+            { text: "Imposition of costs on individuals or firms by the Government.", correct: false },
+        ]
+    },
+    {
+        question: "In European and Latin American countries, which of the following is not a subset of compulsory contributions?",
+        answers: [
+            { text: "User fees", correct: false },
+            { text: "Special contribution", correct: false },
+            { text: "Taxes", correct: false },
+            { text: "Penalties", correct: true },
+        ]
+    },
+    {
+        question: "What is the main characteristic of direct taxes?",
+        answers: [
+            { text: "Levied on products or services.", correct: false },
+            { text: "Burden can be shifted to the final consumer.", correct: false },
+            { text: "Paid directly by the person concerned.", correct: true },
+            { text: "Collection is more difficult.", correct: false },
+        ]
+    },
+    {
+        question: "According to the general consensus, which taxes are considered indirect taxes?",
+        answers: [
+            { text: "Income and wealth taxes.", correct: false },
+            { text: "Consumption and transaction taxes.", correct: true },
+            { text: "Property and estate taxes.", correct: false },
+            { text: "Corporate and dividend taxes.", correct: false },
+        ]
+    },
+    {
+        question: "What is the incidence criterion used for?",
+        answers: [
+            { text: "Determining the amount of tax.", correct: false },
+            { text: "Measuring the economic burden of a tax.", correct: true },
+            { text: "Allocating taxation rights between countries.", correct: false },
+            { text: "Assessing the legality of a tax.", correct: false },
+        ]
+    },
+    {
+        question: "What is the purpose of Double Tax Treaties (DDT)?",
+        answers: [
+            { text: "Creating new taxes.", correct: false },
+            { text: "Allocating taxing powers to avoid or reduce double taxation.", correct: true },
+            { text: "Establishing tax exemptions.", correct: false },
+            { text: "Overriding domestic tax laws.", correct: false },
+        ]
+    },
+    {
+        question: "What is the primary function of VAT?",
+        answers: [
+            { text: "Redistributing wealth.", correct: false },
+            { text: "Regulating market activities.", correct: false },
+            { text: "Providing tax credits.", correct: false },
+            { text: "Generating financial resources for governments.", correct: true },
+        ]
+    },
+    {
+        question: "According to Tax Neutrality Theory, what role should taxation play?",
+        answers: [
+            { text: "Redistributing wealth.", correct: false },
+            { text: "Regulating market behaviors.", correct: false },
+            { text: "Having no role in redistributing wealth or controlling behaviors.", correct: true },
+            { text: "Promoting social economic order.", correct: false },
+        ]
+    },
+    {
+        question: "What do Tax Expenditures include?",
+        answers: [
+            { text: "Direct spending programs.", correct: true },
+            { text: "Tax credits, deductions, and exemptions.", correct: true },
+            { text: "Regulatory policies.", correct: true },
+            { text: "International tax treaties.", correct: true },
+        ]
+    },
+    {
+        question: "What do Pigouvian Taxes aim to address?",
+        answers: [
+            { text: "Internalizing negative externalities.", correct: true },
+            { text: "Reducing income inequality.", correct: false },
+            { text: "Encouraging R&D expenditures.", correct: false },
+            { text: "Providing tax credits.", correct: false },
+        ]
+    },
+    {
+        question: "What is the primary goal of Revenue-raising function in taxation?",
+        answers: [
+            { text: "Reducing wealth inequalities.", correct: false },
+            { text: "Providing financial resources for governments.", correct: true },
+            { text: "Influencing investment decisions.", correct: false },
+            { text: "Implementing public policies.", correct: false },
+        ]
+    },
+    {
+        question: "What does Tax Neutrality Theory argue about tax-distorted decisions?",
+        answers: [
+            { text: "They produce less total wealth.", correct: true },
+            { text: "They promote economic growth.", correct: false },
+            { text: "They have no impact on wealth distribution.", correct: false },
+            { text: "They are necessary for market efficiency.", correct: false },
+        ]
+    },
+    {
+        question: "In tax residency criteria, what is the basic test according to the presence rule?",
+        answers: [
+            { text: "Economic interest test.", correct: false },
+            { text: "Family ties presumption.", correct: false },
+            { text: "183 days rule.", correct: true },
+            { text: "Centre of vital interests.", correct: false },
+        ]
+    },
+    {
+        question: "What is the primary criterion for determining tax residence in case of conflict according to Double Taxation Treaties?",
+        answers: [
+            { text: "Centre of vital interests.", correct: false },
+            { text: "Permanent home at disposal.", correct: true },
+            { text: "Economic interest test.", correct: false },
+            { text: "Family ties presumption.", correct: false },
+        ]
+    },
+    {
+        question: "How is tax determination typically done in Commonwealth countries?",
+        answers: [
+            { text: "Self-assessment through tax returns.", correct: true },
+            { text: "Withholding tax.", correct: false },
+            { text: "Inclusion in the price.", correct: false },
+            { text: "Reporting and retrieving information.", correct: false },
+        ]
+    },
+    {
+        question: "What is the role of supreme and constitutional courts in taxation?",
+        answers: [
+            { text: "Enforcing tax laws.", correct: false },
+            { text: "Deciding on consistency with constitutional principles.", correct: true },
+            { text: "Administering tax assessments.", correct: false },
+            { text: "Implementing tax treaties.", correct: false },
+        ]
+    },
+    {
+        question: "What is the purpose of a wealth tax?",
+        answers: [
+            { text: "To encourage spending and consumption.", correct: false },
+            { text: "To generate revenue based on individuals' net worth.", correct: true },
+            { text: "To regulate market transactions.", correct: false },
+            { text: "To promote tax evasion.", correct: false },
+        ]
+    },
+    {
+        question: "Which of the following is an example of a progressive tax?",
+        answers: [
+            { text: "Flat income tax rate for all income levels.", correct: false },
+            { text: "Sales tax on goods and services.", correct: false },
+            { text: "Higher tax rates for higher income levels.", correct: true },
+            { text: "Fixed amount per person regardless of income.", correct: false },
+        ]
+    },
+    {
+        question: "What is the primary goal of tax credits?",
+        answers: [
+            { text: "To increase the overall tax burden on individuals.", correct: false },
+            { text: "To provide deductions for specific expenses.", correct: false },
+            { text: "To incentivize certain behaviors or activities.", correct: true },
+            { text: "To simplify the tax code.", correct: false },
+        ]
+    },
+    {
+        question: "Which source is considered in the global concept of income?",
+        answers: [
+            { text: "Only proceeds from specific assets or activities.", correct: false },
+            { text: "Proceeds spent for consumption.", correct: false },
+            { text: "All increases in financial means, including unrealized gains.", correct: true },
+            { text: "Deemed proceeds from non-pre-identified sources.", correct: false },
+        ]
+    },
+    {
+        question: "What does the principle of non-retroactivity in tax law mean?",
+        answers: [
+            { text: "Laws can be applied to acts that occurred before the law's adoption.", correct: false },
+            { text: "Laws are only applicable to future acts, not past ones.", correct: true },
+            { text: "Laws can be applied retroactively for urgent public interest.", correct: false },
+            { text: "Laws cannot be applied to international transactions.", correct: false },
+        ]
+    },
+    {
+        question: "In tax residency, what does the economic interest test consider?",
+        answers: [
+            { text: "The number of days an individual spends in a country.", correct: false },
+            { text: "The individual's ties to family in a specific country.", correct: false },
+            { text: "The individual's sources of income and wealth.", correct: true },
+            { text: "The presence of a permanent home at disposal.", correct: false },
+        ]
+    },
+    {
+        question: "What is the role of tax amnesties in tax systems?",
+        answers: [
+            { text: "To increase tax evasion.", correct: false },
+            { text: "To encourage tax crimes.", correct: false },
+            { text: "To forgive taxes and penalties for a limited period.", correct: true },
+            { text: "To impose stricter penalties on taxpayers.", correct: false },
+        ]
+    },
+    {
+        question: "Which tax model does not distinguish between different categories of income?",
+        answers: [
+            { text: "Global Model (US, Australia, Canada).", correct: true },
+            { text: "Schedular Model (Europe).", correct: false },
+            { text: "Hybrid Model.", correct: false },
+            { text: "Progressive Model.", correct: false },
+        ]
+    },
+    {
+        question: "What is the primary purpose of tax treaties in international taxation?",
+        answers: [
+            { text: "To create new taxes in participating countries.", correct: false },
+            { text: "To override domestic tax laws.", correct: false },
+            { text: "To allocate taxing powers and avoid double taxation.", correct: true },
+            { text: "To establish tax exemptions for certain transactions.", correct: false },
+        ]
+    },
+    {
+        question: "What is the impact of high income tax rates on tax evasion?",
+        answers: [
+            { text: "High rates decrease tax evasion.", correct: false },
+            { text: "High rates have no impact on tax evasion.", correct: false },
+            { text: "High rates increase tax evasion.", correct: true },
+            { text: "High rates lead to revenue neutrality.", correct: false },
+        ]
+    },
+    {
+        question: "Which court assesses the consistency of tax legislation with constitutional principles?",
+        answers: [
+            { text: "Tax court.", correct: false },
+            { text: "Administrative court.", correct: false },
+            { text: "Constitutional court.", correct: true },
+            { text: "Supreme court.", correct: false },
+        ]
+    },
+    {
+        question: "What is the primary criterion for tax residence in the presence test?",
+        answers: [
+            { text: "Centre of vital interests.", correct: false },
+            { text: "Permanent home at disposal.", correct: false },
+            { text: "183 days rule.", correct: true },
+            { text: "Family ties presumption.", correct: false },
+        ]
+    },
+    {
+        question: "Which principle prohibits taxes imposed by administrative bodies without legislative approval?",
+        answers: [
+            { text: "Principle of equality.", correct: false },
+            { text: "Principle of legality.", correct: true },
+            { text: "Principle of proportionality.", correct: false },
+            { text: "Principle of non-retroactivity.", correct: false },
+        ]
+    },
+    {
+        question: "What is the primary function of withholding taxes?",
+        answers: [
+            { text: "To increase taxpayer burden.", correct: false },
+            { text: "To provide tax credits for specific expenses.", correct: false },
+            { text: "To deduct taxes at the source of income.", correct: true },
+            { text: "To encourage tax evasion.", correct: false },
+        ]
+    },
+    {
+        question: "What does the Pigouvian Tax aim to address?",
+        answers: [
+            { text: "Encouraging R&D expenditures.", correct: false },
+            { text: "Internalizing negative externalities.", correct: true },
+            { text: "Promoting tax evasion.", correct: false },
+            { text: "Reducing income inequality.", correct: false },
+        ]
+    },
+    {
+        question: "What is the primary goal of regulatory function in taxation?",
+        answers: [
+            { text: "Generating financial resources for governments.", correct: false },
+            { text: "Redistributing wealth.", correct: false },
+            { text: "Influencing investment and behavior decisions.", correct: true },
+            { text: "Implementing public policies.", correct: false },
+        ]
+    },
+    {
+        question: "According to Tax Neutrality Theory, what is the efficiency of taxation?",
+        answers: [
+            { text: "Promoting market distortions.", correct: false },
+            { text: "Producing less total wealth.", correct: true },
+            { text: "Having no impact on economic decisions.", correct: false },
+            { text: "Encouraging tax evasion.", correct: false },
+        ]
+    },
+    {
+        question: "What is the criterion for determining which country should tax employment income in case of conflict?",
+        answers: [
+            { text: "Centre of vital interests.", correct: false },
+            { text: "Residence of the individual.", correct: false },
+            { text: "Permanent home at disposal.", correct: false },
+            { text: "Treaty tie-breaker rules.", correct: true },
+        ]
+    },
+    {
+        question: "What is the role of Tax Neutrality Theory in tax policy?",
+        answers: [
+            { text: "To encourage market distortions.", correct: false },
+            { text: "To promote progressive taxation.", correct: false },
+            { text: "To limit government's regulatory function.", correct: true },
+            { text: "To establish tax exemptions.", correct: false },
+        ]
+    },
+    {
+        question: "What principle states that taxes must be imposed by law?",
+        answers: [
+            { text: "Principle of equality.", correct: false },
+            { text: "Principle of legality.", correct: true },
+            { text: "Principle of non-retroactivity.", correct: false },
+            { text: "Principle of proportionality.", correct: false },
+        ]
+    },
+    {
+        question: "What is the primary function of tax penalties?",
+        answers: [
+            { text: "Generating revenue.", correct: false },
+            { text: "Providing tax credits.", correct: false },
+            { text: "Acting as a deterrent.", correct: true },
+            { text: "Encouraging tax evasion.", correct: false },
+        ]
+    },
+    {
+        question: "In which model is there a final comprehensive tax base, combining all sources of income?",
+        answers: [
+            { text: "Global Model (US, Australia, Canada).", correct: true },
+            { text: "Schedular Model (Europe).", correct: false },
+            { text: "Hybrid Model.", correct: false },
+            { text: "Progressive Model.", correct: false },
+        ]
+    },
+    {
+        question: "What is the main difference between the global and schedular models of income taxation?",
+        answers: [
+            { text: "Treatment of losses.", correct: false },
+            { text: "Types of deductions.", correct: false },
+            { text: "Progressive vs proportional tax rates.", correct: false },
+            { text: "Qualification of income.", correct: true },
+        ]
+    },
+    
+    {
         question: "What is a characteristic of direct taxes?",
         answers: [
             { text: "Burden can be shifted to the final consumer.", correct: false },
