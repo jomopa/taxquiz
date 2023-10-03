@@ -674,6 +674,357 @@ const questions = [
       { text: "They should be acknowledged, and other factors like firm-level factors considered", correct: true },
     ],
   },
+    {
+    question: "What is the primary focus of the SCP paradigm in industry analysis?",
+    answers: [
+      { text: "Firm conduct within the industry", correct: false },
+      { text: "Industry structure and its impact on firm conduct and performance", correct: true },
+      { text: "Market segmentation criteria", correct: false },
+      { text: "Determining the level of competition", correct: false },
+    ],
+  },
+  {
+    question: "What is the main purpose of industry analysis, as mentioned in the notes?",
+    answers: [
+      { text: "To maximize shareholder interests", correct: false },
+      { text: "To evaluate firm-level factors", correct: false },
+      { text: "To assess industry attractiveness and understand industry structure", correct: true },
+      { text: "To minimize stakeholder interests", correct: false },
+    ],
+  },
+  {
+    question: "What is a key assumption about industry structure in industry analysis?",
+    answers: [
+      { text: "It is continuously changing", correct: false },
+      { text: "It is dynamic and unpredictable", correct: false },
+      { text: "It is assumed to be fairly stable", correct: true },
+      { text: "It has no impact on firm performance", correct: false },
+    ],
+  },
+  {
+    question: "What is the main objective of assessing industry attractiveness?",
+    answers: [
+      { text: "To maximize firm conduct", correct: false },
+      { text: "To identify key success factors", correct: true },
+      { text: "To minimize industry structure", correct: false },
+      { text: "To forecast future profitability", correct: false },
+    ],
+  },
+  {
+    question: "What is the first step for industry analysis according to Porter's 5 Forces?",
+    answers: [
+      { text: "Identify key success factors", correct: false },
+      { text: "Analyze industry rivalry", correct: false },
+      { text: "Identify the industry and market", correct: true },
+      { text: "Forecast future profitability", correct: false },
+    ],
+  },
+  {
+    question: "How is market defined in contrast to the industry?",
+    answers: [
+      { text: "Market is a subset of an industry", correct: false },
+      { text: "Market is the same as an industry", correct: false },
+      { text: "Market is the segmentation of an industry based on various criteria", correct: true },
+      { text: "Market and industry are interchangeable terms", correct: false },
+    ],
+  },
+  {
+    question: "What is the primary principle used to define industries or markets?",
+    answers: [
+      { text: "Market concentration", correct: false },
+      { text: "Barriers to entry", correct: false },
+      { text: "Substitutability", correct: true },
+      { text: "Industry rivalry", correct: false },
+    ],
+  },
+  {
+    question: "How is the intensity of rivalry measured in industry analysis?",
+    answers: [
+      { text: "Number of firms competing in a market", correct: false },
+      { text: "Market share of the largest firms", correct: true },
+      { text: "Diversity of competitors", correct: false },
+      { text: "Product differentiation", correct: false },
+    ],
+  },
+  {
+    question: "What is the Herfindahl index used for in industry analysis?",
+    answers: [
+      { text: "Measuring market concentration", correct: true },
+      { text: "Forecasting future profitability", correct: false },
+      { text: "Assessing industry attractiveness", correct: false },
+      { text: "Identifying key success factors", correct: false },
+    ],
+  },
+  {
+    question: "What determines the strength of entry barriers in industry analysis?",
+    answers: [
+      { text: "Market share of the largest firms", correct: false },
+      { text: "Diversity of competitors", correct: false },
+      { text: "Number of firms in the market", correct: false },
+      { text: "Capital requirements, economies of scale, and legal barriers", correct: true },
+    ],
+  },
+  {
+    question: "What is analogous to buyer power in industry analysis?",
+    answers: [
+      { text: "Barriers to entry", correct: false },
+      { text: "Herfindahl index", correct: false },
+      { text: "Threat of entry", correct: false },
+      { text: "Supplier power", correct: true },
+    ],
+  },
+  {
+    question: "What is a determinant of buyer power in industry analysis?",
+    answers: [
+      { text: "Barriers to entry", correct: false },
+      { text: "Market concentration", correct: false },
+      { text: "Bargaining power and size of buyers", correct: true },
+      { text: "Threat of entry", correct: false },
+    ],
+  },
+  {
+    question: "What does the threat of substitution in industry analysis refer to?",
+    answers: [
+      { text: "Buyers' propensity to switch suppliers", correct: false },
+      { text: "Buyers' propensity to substitute a firm's product with other products", correct: true },
+      { text: "The entry of new firms", correct: false },
+      { text: "The exit of existing firms", correct: false },
+    ],
+  },
+  {
+    question: "What does supplier power refer to in industry analysis?",
+    answers: [
+      { text: "Bargaining power of buyers", correct: false },
+      { text: "Bargaining power of suppliers", correct: true },
+      { text: "Intensity of industry rivalry", correct: false },
+      { text: "Threat of entry", correct: false },
+    ],
+  },
+  {
+    question: "What is a limitation of industry analysis mentioned in the notes?",
+    answers: [
+      { text: "It provides a dynamic perspective", correct: false },
+      { text: "It includes interaction among competitors", correct: false },
+      { text: "It has a reverse causality", correct: false },
+      { text: "It assumes a static perspective and neglects interaction among competitors", correct: true },
+    ],
+  },
+  {
+    question: "What is a potential issue with defining industry boundaries in industry analysis?",
+    answers: [
+      { text: "Industry boundaries are always well-defined", correct: false },
+      { text: "Industry boundaries depend on firm-level factors", correct: false },
+      { text: "Industry boundaries are static", correct: false },
+      { text: "Industry boundaries vary depending on objectives", correct: true },
+    ],
+  },
+  {
+    question: "What does the SCP paradigm primarily assume about firms' profits?",
+    answers: [
+      { text: "Firms' profits depend on firm-level factors", correct: true },
+      { text: "Firms' profits are solely determined by industry structure", correct: false },
+      { text: "Firms' profits are not influenced by industry structure", correct: false },
+      { text: "Firms' profits are static and unchanging", correct: false },
+    ],
+  },
+  {
+    question: "What is a criticism of the SCP paradigm mentioned in the notes?",
+    answers: [
+      { text: "It overemphasizes firm-level factors", correct: false },
+      { text: "It underemphasizes the role of industry structure in firms' profits", correct: false },
+      { text: "It assumes a dynamic perspective", correct: false },
+      { text: "It assumes a static perspective and neglects firm-level factors", correct: true },
+    ],
+  },
+  {
+    question: "What is a limitation of the SCP paradigm in industry analysis?",
+    answers: [
+      { text: "It neglects industry structure", correct: false },
+      { text: "It overemphasizes firm-level factors", correct: false },
+      { text: "It assumes industry structure is always changing", correct: false },
+      { text: "It assumes a static perspective and neglects firm-level factors", correct: true },
+    ],
+  },
+  {
+    question: "What does the note suggest about the limitations of industry analysis?",
+    answers: [
+      { text: "They are irrelevant in dynamic industries", correct: false },
+      { text: "They are essential for understanding dynamic industries", correct: false },
+      { text: "They are inherent in industry analysis", correct: false },
+      { text: "They should be acknowledged, and other factors like firm-level factors considered", correct: true },
+    ],
+  },
+     {
+    question: "What is the primary purpose of segmentation, as mentioned in the notes?",
+    answers: [
+      { text: "To disaggregate industries into specific markets", correct: true },
+      { text: "To analyze competition at an industry level", correct: false },
+      { text: "To identify key success factors", correct: false },
+      { text: "To focus on Blue Ocean Strategy", correct: false },
+    ],
+  },
+  {
+    question: "Why is segmentation useful?",
+    answers: [
+      { text: "To adapt the same strategy for all segments", correct: false },
+      { text: "To identify uncontested market segments", correct: true },
+      { text: "To ignore potential growth segments", correct: false },
+      { text: "To complicate the decision-making process", correct: false },
+    ],
+  },
+  {
+    question: "What is a potential advantage of identifying potential 'uncontested' market segments?",
+    answers: [
+      { text: "Blue Ocean Strategy", correct: true },
+      { text: "First mover advantage", correct: false },
+      { text: "Market saturation", correct: false },
+      { text: "Competitive convergence", correct: false },
+    ],
+  },
+  {
+    question: "In segmentation analysis, what is the first step?",
+    answers: [
+      { text: "Analyze segments' attractiveness", correct: false },
+      { text: "Construct a segmentation matrix", correct: false },
+      { text: "Identify key segmentation variables", correct: true },
+      { text: "Decide how many segments to serve", correct: false },
+    ],
+  },
+  {
+    question: "What is the purpose of constructing a segmentation matrix in segmentation analysis?",
+    answers: [
+      { text: "To confuse competitors", correct: false },
+      { text: "To identify key success factors", correct: false },
+      { text: "To analyze benefits of broad vs. narrow scope", correct: false },
+      { text: "To visualize segments using 2-3 dimensions", correct: true },
+    ],
+  },
+  {
+    question: "What is a key consideration when selecting key segmentation variables?",
+    answers: [
+      { text: "Variables should be as complex as possible", correct: false },
+      { text: "Variables should not distinguish markets in terms of demand-side substitutability", correct: false },
+      { text: "Variables should identify distinct markets in terms of demand-side and supplier-side substitutability", correct: true },
+      { text: "Variables should be determined by competitor behavior", correct: false },
+    ],
+  },
+  {
+    question: "How does segmentation analysis differ from industry analysis?",
+    answers: [
+      { text: "Segmentation focuses on Blue Ocean Strategy, while industry analysis does not", correct: false },
+      { text: "Industry analysis is broader and encompasses segmentation", correct: true },
+      { text: "Industry analysis ignores competition at the industry level", correct: false },
+      { text: "Segmentation and industry analysis are synonymous terms", correct: false },
+    ],
+  },
+  {
+    question: "What does KSF stand for in segmentation analysis?",
+    answers: [
+      { text: "Key Segmentation Factors", correct: false },
+      { text: "Key Success Factors", correct: true },
+      { text: "Key Strategic Factors", correct: false },
+      { text: "Key Scope Factors", correct: false },
+    ],
+  },
+  {
+    question: "What is the primary factor that influences the decision between broad and focused strategies?",
+    answers: [
+      { text: "Number of segments identified", correct: false },
+      { text: "Presence of shared costs across segments", correct: true },
+      { text: "Uncontested market segments", correct: false },
+      { text: "Market saturation", correct: false },
+    ],
+  },
+  {
+    question: "What is the primary focus of a broad strategy in segmentation analysis?",
+    answers: [
+      { text: "Focus on customer group and geographic area", correct: false },
+      { text: "Focus on product characteristics", correct: false },
+      { text: "Serve all or many customer groups in the industry with a portfolio of related products", correct: true },
+      { text: "Competitive differentiation", correct: false },
+    ],
+  },
+  {
+    question: "What does a focused strategy in segmentation analysis primarily emphasize?",
+    answers: [
+      { text: "Broad product offerings", correct: false },
+      { text: "Serving all customer groups", correct: false },
+      { text: "Competing across multiple industries", correct: false },
+      { text: "Focus on customer group, product, or geographic area", correct: true },
+    ],
+  },
+  {
+    question: "How is segmentation different from positioning in the context of the notes?",
+    answers: [
+      { text: "Positioning focuses on customer and geographic areas, while segmentation does not", correct: false },
+      { text: "Differentiation is a synonym for segmentation", correct: false },
+      { text: "Positioning focuses on a favorable position in an industry or market, while segmentation is the choice of customers and areas targeted by a firm", correct: true },
+      { text: "Segmentation and positioning are interchangeable terms", correct: false },
+    ],
+  },
+  {
+    question: "What is the key choice in differentiation according to the notes?",
+    answers: [
+      { text: "Choice of customers", correct: false },
+      { text: "Choice of a favorable position", correct: false },
+      { text: "Choice of distinguishing offerings from competitors", correct: true },
+      { text: "Choice of geographic areas", correct: false },
+    ],
+  },
+  {
+    question: "Does differentiation necessarily imply segmentation?",
+    answers: [
+      { text: "Yes, always", correct: false },
+      { text: "No, never", correct: false },
+      { text: "Depends upon the differentiation strategy", correct: true },
+      { text: "Differentiation and segmentation are the same", correct: false },
+    ],
+  },
+  {
+    question: "What is broad scope differentiation primarily about?",
+    answers: [
+      { text: "Appealing to what distinguishes different customer groups", correct: false },
+      { text: "Appealing to what is common between different customers", correct: true },
+      { text: "Appealing to a narrow market segment", correct: false },
+      { text: "Competing in multiple industries simultaneously", correct: false },
+    ],
+  },
+  {
+    question: "What is focused differentiation primarily about?",
+    answers: [
+      { text: "Appealing to what is common between different customers", correct: false },
+      { text: "Appealing to a narrow market segment", correct: true },
+      { text: "Competing in multiple industries simultaneously", correct: false },
+      { text: "Appealing to a broad customer base", correct: false },
+    ],
+  },
+  {
+    question: "What is a limitation of segmentation mentioned in the notes?",
+    answers: [
+      { text: "Segmentation is not useful for identifying uncontested market segments", correct: false },
+      { text: "Segmentation is limited to product characteristics", correct: false },
+      { text: "Segmentation is static and unchanging", correct: false },
+      { text: "Segmentation assumes a static industry structure", correct: true },
+    ],
+  },
+  {
+    question: "What is a limitation of differentiation in segmentation analysis?",
+    answers: [
+      { text: "Differentiation is always beneficial", correct: false },
+      { text: "Differentiation assumes a dynamic industry structure", correct: false },
+      { text: "Differentiation does not account for competitive structure", correct: false },
+      { text: "Differentiation does not guarantee segmentation", correct: true },
+    ],
+  },
+  {
+    question: "What does the note suggest about segmentation and industry analysis limitations?",
+    answers: [
+      { text: "They are irrelevant in static industries", correct: false },
+      { text: "They are inherent in segmentation and industry analysis", correct: true },
+      { text: "They are essential for understanding dynamic industries", correct: false },
+      { text: "They should be ignored for strategic decision-making", correct: false },
+    ],
+  },
   {
     question: "What is the dynamic dimension of strategy concerned with?",
     answers: [
