@@ -1025,6 +1025,348 @@ const questions = [
       { text: "They should be ignored for strategic decision-making", correct: false },
     ],
   },
+    {
+    question: "What is the primary reason for firms in the same industry to differ in their performance, according to the notes?",
+    answers: [
+      { text: "Market conditions", correct: false },
+      { text: "Resource-based-view", correct: true },
+      { text: "Industry analysis", correct: false },
+      { text: "Sustained competitive advantage", correct: false },
+    ],
+  },
+  {
+    question: "How does the Resource-based-view (RBV) differ from industry analysis?",
+    answers: [
+      { text: "RBV focuses on industry structure, while industry analysis focuses on resources", correct: false },
+      { text: "RBV assumes industry structure drives profitability, while industry analysis focuses on resources", correct: true },
+      { text: "RBV and industry analysis are synonymous terms", correct: false },
+      { text: "RBV neglects the importance of resources in firm performance", correct: false },
+    ],
+  },
+  {
+    question: "What does the note suggest about the relationship between the rate of change in a firm’s external environment and the foundation for long-term strategy?",
+    answers: [
+      { text: "External market focus is more secure in rapidly changing environments", correct: false },
+      { text: "Internal resources and capabilities provide a secure foundation in rapidly changing environments", correct: true },
+      { text: "External market focus is irrelevant in rapidly changing environments", correct: false },
+      { text: "External market focus is always superior to internal resources", correct: false },
+    ],
+  },
+  {
+    question: "What are tangible resources?",
+    answers: [
+      { text: "Reputation and culture", correct: false },
+      { text: "Financial and physical assets", correct: true },
+      { text: "Skills and know-how", correct: false },
+      { text: "Technology and patents", correct: false },
+    ],
+  },
+  {
+    question: "How can we identify a firm’s tangible resources?",
+    answers: [
+      { text: "By analyzing organizational routines", correct: false },
+      { text: "By evaluating employee motivation", correct: false },
+      { text: "With financial and physical indicators", correct: true },
+      { text: "By assessing brand equity", correct: false },
+    ],
+  },
+  {
+    question: "What are intangible resources?",
+    answers: [
+      { text: "Financial assets", correct: false },
+      { text: "Physical assets", correct: false },
+      { text: "Human skills and know-how", correct: false },
+      { text: "Technology, reputation, and culture", correct: true },
+    ],
+  },
+  {
+    question: "How can we identify a firm’s intangible resources?",
+    answers: [
+      { text: "By evaluating employee qualification and pay rates", correct: false },
+      { text: "With technology and reputation indicators", correct: true },
+      { text: "By analyzing financial indicators", correct: false },
+      { text: "By assessing physical assets", correct: false },
+    ],
+  },
+  {
+    question: "What is organizational capability in the context of the notes?",
+    answers: [
+      { text: "The firm's financial strength", correct: false },
+      { text: "The firm's capacity to deploy resources for a desired end result", correct: true },
+      { text: "The firm's technological infrastructure", correct: false },
+      { text: "The firm's brand equity", correct: false },
+    ],
+  },
+  {
+    question: "What are routines and processes in the context of organizational capabilities?",
+    answers: [
+      { text: "Unique activities that create value", correct: false },
+      { text: "Regular and repetitive patterns of activity and coordinated sequences of actions", correct: true },
+      { text: "Market analysis and industry evaluation", correct: false },
+      { text: "Brand-building activities", correct: false },
+    ],
+  },
+  {
+    question: "What are core capabilities in the hierarchy of organizational capabilities?",
+    answers: [
+      { text: "Unique and distinctive activities", correct: false },
+      { text: "Higher-level capabilities integrated from lower-level ordinary capabilities", correct: true },
+      { text: "Routine activities", correct: false },
+      { text: "Individual actions without coordination", correct: false },
+    ],
+  },
+  {
+    question: "What are dynamic capabilities in the context of organizational capabilities?",
+    answers: [
+      { text: "Capabilities that focus on routine activities", correct: false },
+      { text: "Capabilities that allow firms to re-deploy core capabilities in new markets", correct: true },
+      { text: "Capabilities that are static and unchanging", correct: false },
+      { text: "Capabilities that focus on individual actions", correct: false },
+    ],
+  },
+  {
+    question: "How can we identify a firm’s capabilities?",
+    answers: [
+      { text: "Through functional analysis only", correct: false },
+      { text: "By analyzing a company's history, past successes, and failures", correct: true },
+      { text: "Through value chain analysis only", correct: false },
+      { text: "By assessing financial indicators", correct: false },
+    ],
+  },
+  {
+    question: "What is the Robert Grant Framework used for?",
+    answers: [
+      { text: "Assessing industry profitability", correct: false },
+      { text: "Identifying key success factors", correct: false },
+      { text: "Evaluating the profit-earning potential of a resource or capability", correct: true },
+      { text: "Measuring market concentration", correct: false },
+    ],
+  },
+  {
+    question: "What are the three sections in the Robert Grant Framework?",
+    answers: [
+      { text: "Scarcity, Sustainability, Appropriability", correct: true },
+      { text: "Durability, Transferability, Replicability", correct: false },
+      { text: "Relevance, Durability, Appropriability", correct: false },
+      { text: "Property rights, Bargaining power, Embeddedness", correct: false },
+    ],
+  },
+  {
+    question: "What is the VRIO Framework based on?",
+    answers: [
+      { text: "Three sections: Scarcity, Sustainability, Appropriability", correct: false },
+      { text: "Four main questions: Valuable, Rare, Imitate, Organized", correct: true },
+      { text: "Three indicators: Durability, Transferability, Replicability", correct: false },
+      { text: "Three factors: Property rights, Bargaining power, Embeddedness", correct: false },
+    ],
+  },
+  {
+    question: "What does the VRIO Framework suggest about a resource being a sustained competitive advantage?",
+    answers: [
+      { text: "If it is scarce and sustainable", correct: false },
+      { text: "If it is valuable, rare, costly to imitate, and organized to capture value", correct: true },
+      { text: "If it is easily replicable", correct: false },
+      { text: "If it is valuable and costly to imitate", correct: false },
+    ],
+  },
+  {
+    question: "What makes it hard to imitate a resource or capability?",
+    answers: [
+      { text: "Superior access to inputs or customers", correct: true },
+      { text: "Legal restrictions", correct: true },
+      { text: "Market size and scale economies", correct: true },
+      { text: "Intangible barriers", correct: true },
+    ],
+  },
+  {
+    question: "What does the Resource and Capabilities Profile indicate?",
+    answers: [
+      { text: "The company's financial strength", correct: false },
+      { text: "A two by two with superfluous strengths, key strengths, zone of irrelevance, and key weaknesses", correct: true },
+      { text: "The company's brand equity", correct: false },
+      { text: "A four-quadrant matrix of industry competitiveness", correct: false },
+    ],
+  },
+    {
+    question: "How is Competitive Advantage (CA) defined in the notes?",
+    answers: [
+      { text: "The ability of a firm to achieve average profitability", correct: false },
+      { text: "The ability of a firm to achieve below-average profitability", correct: false },
+      { text: "The ability of a firm to achieve above-average profitability relative to industry competitors", correct: true },
+      { text: "The ability of a firm to maximize shareholder profits", correct: false },
+    ],
+  },
+  {
+    question: "What are the short-term proxies for competitive advantage mentioned in the notes?",
+    answers: [
+      { text: "Market value and Tobin’s Q", correct: false },
+      { text: "Firms’ market value and strategic fit", correct: false },
+      { text: "Information about profitability in firms’ balance sheet", correct: true },
+      { text: "Long-term observation of firms", correct: false },
+    ],
+  },
+  {
+    question: "What is a key strategy for internally creating competitive advantage?",
+    answers: [
+      { text: "Cost reduction", correct: false },
+      { text: "Market expansion", correct: false },
+      { text: "Strategic innovation", correct: true },
+      { text: "Product standardization", correct: false },
+    ],
+  },
+  {
+    question: "From where does competitive advantage emerge, according to the notes?",
+    answers: [
+      { text: "Internal sources only", correct: false },
+      { text: "External sources and strategic innovation", correct: true },
+      { text: "Strategic fit and internal sources", correct: false },
+      { text: "External sources only", correct: false },
+    ],
+  },
+  {
+    question: "How is competitive advantage defended against imitation?",
+    answers: [
+      { text: "Identification is protected through transparency", correct: false },
+      { text: "Diagnosis is protected through clear performance metrics", correct: false },
+      { text: "Resource acquisition is protected through mobile and replicable resources", correct: true },
+      { text: "Incentives for imitation are protected through encouragement", correct: false },
+    ],
+  },
+  {
+    question: "What are the two main types of competitive advantage mentioned in the notes?",
+    answers: [
+      { text: "Economic and market advantage", correct: false },
+      { text: "Strategic and tactical advantage", correct: false },
+      { text: "Cost advantage and differentiation advantage", correct: true },
+      { text: "Internal and external advantage", correct: false },
+    ],
+  },
+  {
+    question: "What is the strategic logic of cost advantage?",
+    answers: [
+      { text: "Achieving a higher willingness to pay than rivals", correct: false },
+      { text: "Creating a larger 'B - C' by achieving a lower cost than rivals", correct: true },
+      { text: "Maximizing customer appeal through differentiation", correct: false },
+      { text: "Gaining market share through premium pricing", correct: false },
+    ],
+  },
+  {
+    question: "What are the drivers of cost advantage?",
+    answers: [
+      { text: "Technology and patents", correct: false },
+      { text: "Economies of Scale, Learning, and Scope", correct: true },
+      { text: "Market value and Tobin’s Q", correct: false },
+      { text: "Customer responsiveness and product integrity", correct: false },
+    ],
+  },
+  {
+    question: "What does differentiation advantage seek to achieve?",
+    answers: [
+      { text: "Lower cost and higher market share", correct: false },
+      { text: "Superior value by offering substantially higher benefit and higher price", correct: true },
+      { text: "Similar product at lower cost", correct: false },
+      { text: "Prime premium for a unique product", correct: false },
+    ],
+  },
+  {
+    question: "What does 'Being stuck-in-the-middle' mean according to Porter?",
+    answers: [
+      { text: "Having both cost and differentiation advantage", correct: false },
+      { text: "Avoiding cost advantage or differentiation advantage", correct: true },
+      { text: "Maximizing customer appeal through differentiation and low cost", correct: false },
+      { text: "Having no competitive advantage", correct: false },
+    ],
+  },
+  {
+    question: "According to others, can firms have both cost advantage and differentiation advantage?",
+    answers: [
+      { text: "No, it is inconsistent", correct: false },
+      { text: "Yes, it depends on the industry life cycle", correct: true },
+      { text: "Yes, but only at the beginning of a firm’s life-cycle", correct: false },
+      { text: "No, it violates the principles of competitive advantage", correct: false },
+    ],
+  },
+  {
+    question: "What does the term 'Blue oceans' refer to in the context of competitive advantage?",
+    answers: [
+      { text: "Market areas with intense competition", correct: false },
+      { text: "Areas where cost and differentiation advantages cannot coexist", correct: false },
+      { text: "Unexplored market spaces with little or no competition", correct: true },
+      { text: "Firms that maximize shareholder profits", correct: false },
+    ],
+  },
+  {
+    question: "What does Tangible Differentiation refer to?",
+    answers: [
+      { text: "Observable product characteristics", correct: true },
+      { text: "Unobservable and subjective characteristics", correct: false },
+      { text: "Total customer responsiveness", correct: false },
+      { text: "The consistency of a firm’s differentiation", correct: false },
+    ],
+  },
+  {
+    question: "What is the nature of Benefit (Differentiation) Advantage?",
+    answers: [
+      { text: "Observable product characteristics", correct: false },
+      { text: "Unobservable and subjective characteristics", correct: true },
+      { text: "Total customer responsiveness", correct: false },
+      { text: "The consistency of a firm’s differentiation", correct: false },
+    ],
+  },
+  {
+    question: "According to the notes, what does Total Customer Responsiveness / Product Integrity refer to?",
+    answers: [
+      { text: "Differentiation based on product characteristics", correct: false },
+      { text: "The whole relationship between the supplier and the customer", correct: true },
+      { text: "The consistency of a firm’s cost advantage", correct: false },
+      { text: "The inconsistency of a firm’s strategy", correct: false },
+    ],
+  },
+  {
+    question: "What makes it hard to imitate a resource or capability?",
+    answers: [
+      { text: "Lack of legal restrictions", correct: false },
+      { text: "Superior access to inputs or customers", correct: true },
+      { text: "Small market size", correct: false },
+      { text: "Low bargaining power of buyers", correct: false },
+    ],
+  },
+  {
+    question: "What does the Resource and Capabilities Profile indicate?",
+    answers: [
+      { text: "The company's financial strength", correct: false },
+      { text: "A two by two with superfluous strengths, key strengths, zone of irrelevance, and key weaknesses", correct: true },
+      { text: "The company's brand equity", correct: false },
+      { text: "A four-quadrant matrix of industry competitiveness", correct: false },
+    ],
+  },
+  {
+    question: "What are the limitations of industry analysis mentioned in the notes?",
+    answers: [
+      { text: "Difficulty of defining industry boundaries", correct: true },
+      { text: "Excessive emphasis on industry structure", correct: true },
+      { text: "Lack of interaction among competitors", correct: true },
+      { text: "Reverse causality", correct: true },
+    ],
+  },
+  {
+    question: "What is the main purpose of the SCP paradigm in industrial organization?",
+    answers: [
+      { text: "To analyze firms' financial strength", correct: false },
+      { text: "To determine industry boundaries", correct: false },
+      { text: "To assess industry attractiveness and understand industry structure", correct: true },
+      { text: "To emphasize industry-level factors", correct: false },
+    ],
+  },
+  {
+    question: "What is a key determinant of the intensity of competition in an industry?",
+    answers: [
+      { text: "Market concentration", correct: true },
+      { text: "Diversity of competitors", correct: true },
+      { text: "Excess capacity", correct: true },
+      { text: "Cost conditions", correct: true },
+    ],
+  },
   {
     question: "What is the dynamic dimension of strategy concerned with?",
     answers: [
