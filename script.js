@@ -1,33 +1,41 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
+// Sample data for enrolled courses (replace with dynamic data later)
+const enrolledCourses = [
+    { name: "Computer Science 101", description: "Introduction to Programming" },
+    { name: "Mathematics 201", description: "Calculus and Analytical Geometry" },
+    { name: "History 150", description: "World History: Ancient to Modern" },
+];
+
+// Function to dynamically create course cards
+function createCourseCard(course) {
+    const card = document.createElement("div");
+    card.classList.add("course-card");
+    card.innerHTML = `
+        <h2>${course.name}</h2>
+        <p>${course.description}</p>
+    `;
+    
+    // Add a click event to navigate to the course page (will be implemented later)
+    card.addEventListener("click", () => {
+        // Implement navigation to the course page
+        console.log(`Clicked on ${course.name} card`);
+    });
+
+    return card;
 }
 
-header {
-    background-color: #3498db;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
+// Function to display enrolled courses on the homepage
+function displayEnrolledCourses() {
+    const coursesContainer = document.getElementById("courses-container");
+
+    // Clear existing content
+    coursesContainer.innerHTML = "";
+
+    // Create and append course cards
+    enrolledCourses.forEach(course => {
+        const card = createCourseCard(course);
+        coursesContainer.appendChild(card);
+    });
 }
 
-main {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 2em;
-}
-
-.course-card {
-    width: 200px;
-    padding: 1em;
-    margin: 1em;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: transform 0.2s ease-in-out;
-}
-
-.course-card:hover {
-    transform: scale(1.05);
-}
+// Display enrolled courses on page load
+window.onload = displayEnrolledCourses;
